@@ -36,9 +36,7 @@ jobs:
 
     # Start Web App
     - name: Start Web App
-      run: |
-        cd MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCView/bin/Debug/net7.0
-        nohup dotnet VehicleDealershipWebMVCView.dll &
+      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCVie/bin/Debug/net7.0/VehicleDealershipWebMVCView.dll &
 
     # Wait for services to start (you may need to adjust the sleep duration)
     - name: Wait for services
