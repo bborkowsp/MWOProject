@@ -16,19 +16,12 @@ namespace VehicleDealershipApp.Test
         public void Initialize()
         {
             ChromeOptions options = new ChromeOptions();
-            if (IsRunningInGithubActions())
-            {
-                options.AddArgument("--headless");
-            }
-            options.AcceptInsecureCertificates = true;
 
+            options.AddArguments("start-maximized");
+            options.AddArguments("--disabled-gpu");
+            options.AddArgument("--headless");
+            
             ChromeDriver = new ChromeDriver(options);
-        }
-
-        private bool IsRunningInGithubActions()
-        {
-            string githubActions = Environment.GetEnvironmentVariable("GITHUB_ACTIONS");
-            return !string.IsNullOrEmpty(githubActions) && githubActions.Equals("true", StringComparison.OrdinalIgnoreCase);
         }
 
         [TestCleanup]
