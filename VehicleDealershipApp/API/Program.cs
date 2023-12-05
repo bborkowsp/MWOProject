@@ -18,13 +18,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.Services.AddScoped<IVehicleDealershipService, API.Services.VehicleDealershipService.VehicleDealershipService>();
 
-// addScoped - obiekt jest tworzony za kazdym razem dla nowego zapytania http
-// jedno zaptranie tworzy jeden obiekt 
 
-// addTransinet obiekt jest tworzony za kazdym razem kiedy odwolujmey sie do konstuktora 
-// nawet wielokrotnie w cyklu jedengo zaptrania 
-
-//addsingleton - nowa instancja klasy tworzona jest tylko 1 na caly cykl trwania naszej aplikacji 
 
 
 

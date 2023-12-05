@@ -10639,9 +10639,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.Client.csproj",
-      "projectName": "VehicleDealershipWebMVCView.Client",
-      "projectPath": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.csproj",
+      "projectName": "VehicleDealershipWebMVCView",
+      "projectPath": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.csproj",
       "packagesPath": "C:\\Users\\Paweł\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YIOV6VEAeRyRi2ZdvTjP6xdVg75uQpRZcrVjUHhYjO0RPOtgBcRR6A4mgZnbyTFSwR8owL/2+fB2Q1GUj5Fh2A==",
+  "dgSpecHash": "GCJbQVQQSK6MMNlYt9KT5noZ3vY1irep7K2M10Kw1S9FzM/XChCsAWVPWW8Oo4xSDFbQVWkS8AyDIWsptC9JqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.Client.csproj",
+  "projectFilePath": "C:\\Users\\Paweł\\Downloads\\MWOProject\\MWOProject\\VehicleDealershipApp\\VehicleDealershipWebMVCView\\VehicleDealershipWebMVCView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paweł\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Paweł\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
