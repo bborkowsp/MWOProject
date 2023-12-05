@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\VehicleDealershipApp"
+    "\\VehicleDealershipApp",
+    "\\VehicleDealershipApp.Test"
   ],
-  "SelectedNode": "\\VehicleDealershipApp\\Dzien16.sln",
+  "SelectedNode": "\\VehicleDealershipApp.Test\\SeleniumTest.cs",
   "PreviewInSolutionExplorer": false
 }
