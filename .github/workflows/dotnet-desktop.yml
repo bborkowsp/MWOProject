@@ -33,13 +33,13 @@ jobs:
     # Start API
     - name: Start API
       run: |
-        cd MWOProject/VehicleDealershipApp/API/bin/Debug/net7.0
+        cd MWOProject/VehicleDealershipApp/API/bin/Release/net7.0
         nohup dotnet API.dll &
 
     # Start Web App
     - name: Start Web App
       run: |
-        cd MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCView/bin/Debug/net7.0
+        cd MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCView/bin/Release/net7.0
         nohup dotnet VehicleDealershipWebMVCView.dll &
 
     # Wait for services to start (you may need to adjust the sleep duration)
