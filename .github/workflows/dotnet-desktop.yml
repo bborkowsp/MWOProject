@@ -32,9 +32,7 @@ jobs:
 
     # Start API
     - name: Start API
-      run: |
-        cd MWOProject/VehicleDealershipApp/API/bin/Release/net7.0
-        nohup dotnet API.dll &
+      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Release/net7.0/API.dll &
 
     # Start Web App
     - name: Start Web App
