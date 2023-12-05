@@ -34,9 +34,9 @@
                     @Html.DisplayFor(modelItem => item.Fuel)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a aria-label="Edit" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a aria-label="Details" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a aria-label="Delete" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }

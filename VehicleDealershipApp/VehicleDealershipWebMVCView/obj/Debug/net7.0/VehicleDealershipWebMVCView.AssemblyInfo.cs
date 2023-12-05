@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleDealershipWebMVCView")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+636b45ba9f8e144704d1d31545afdd4a79526591")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4b9b1e56c31218ce9c275c79438d55dab964eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleDealershipWebMVCView")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleDealershipWebMVCView")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
