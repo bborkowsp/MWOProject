@@ -17,11 +17,15 @@ namespace VehicleDealershipApp.Test
         [TestInitialize]
         public void Initialize()
         {
+            Console.WriteLine("Setting up FirefoxDriver...");
+            
+            new DriverManager().SetUpDriver(new FirefoxConfig());
+            
             FirefoxOptions options = new FirefoxOptions();
             options.AddArgument("--marionette-port=0");
             options.AddArgument("--headless");
-            options.AcceptInsecureCertificates = true;
-            Console.WriteLine("Setup Firefox Driver...");
+            options.AddArguments("start-maximized", "--no-sandbox");
+            
             FirefoxDriver = new FirefoxDriver(options);
         }
 
