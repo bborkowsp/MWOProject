@@ -24,9 +24,7 @@ namespace VehicleDealershipApp.Test
             FirefoxOptions options = new FirefoxOptions();
             options.AcceptInsecureCertificates = true;
 
-            options.AddArgument("--marionette-port=0");
             options.AddArgument("--headless");
-            options.AddArguments("start-maximized", "--no-sandbox");
             
             FirefoxDriver = new FirefoxDriver(options);
         }
