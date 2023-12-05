@@ -1,0 +1,16 @@
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\bin\Debug\net7.0\DataSeeder.deps.json
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\bin\Debug\net7.0\DataSeeder.dll
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\bin\Debug\net7.0\DataSeeder.pdb
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\bin\Debug\net7.0\SharedService.dll
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\bin\Debug\net7.0\SharedService.pdb
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.AssemblyReference.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfoInputs.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.AssemblyInfo.cs
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.sourcelink.json
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.csproj.CopyComplete
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.dll
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\refint\DataSeeder.dll
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\DataSeeder.pdb
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\DataSeeder\obj\Debug\net7.0\ref\DataSeeder.dll

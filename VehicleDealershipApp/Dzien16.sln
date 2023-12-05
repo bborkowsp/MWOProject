@@ -5,11 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04WeatherForecastAPI.Client", "P04WeatherForecastAPI.Client\P04WeatherForecastAPI.Client.csproj", "{A2D217A4-4C54-4CA0-88C3-ECD2C50D47A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05Shop.API", "P05Shop.API\P05Shop.API.csproj", "{692983EA-F3EF-4C9E-8A59-B09470B4B895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{692983EA-F3EF-4C9E-8A59-B09470B4B895}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06Shop.Shared", "P06Shop.Shared\P06Shop.Shared.csproj", "{CF3B93AE-88E6-4DC2-9324-B3D9B55E49DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedService", "SharedService\SharedService.csproj", "{CF3B93AE-88E6-4DC2-9324-B3D9B55E49DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07Shop.DataSeeder", "P07Shop.DataSeeder\P07Shop.DataSeeder.csproj", "{140E4F34-DB07-41EF-A4AF-1208B840040D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSeeder", "DataSeeder\DataSeeder.csproj", "{140E4F34-DB07-41EF-A4AF-1208B840040D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08ShopWebApp.Client", "P08ShopWebApp.Client\P08ShopWebApp.Client.csproj", "{5A6A1184-D19E-475D-9C59-3FC9331579C2}"
 EndProject
