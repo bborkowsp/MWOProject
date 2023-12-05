@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\VehicleDealershipApp"
   ],
-  "SelectedNode": "\\VehicleDealershipApp.Tests.sln",
+  "SelectedNode": "\\VehicleDealershipApp\\VehicleDealershipApp.sln",
   "PreviewInSolutionExplorer": false
 }

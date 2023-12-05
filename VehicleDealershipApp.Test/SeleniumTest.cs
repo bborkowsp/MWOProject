@@ -12,7 +12,7 @@ namespace VehicleDealershipApp.Test
     public class SeleniumTest
     {
         private IWebDriver FirefoxDriver;
-        private static string BASIC_URL = "http://localhost:5238/VehicleAPI";
+        private static string BASIC_URL = "https://localhost:7255/VehicleAPI";
 
         [TestInitialize]
         public void Initialize()
@@ -22,6 +22,8 @@ namespace VehicleDealershipApp.Test
             new DriverManager().SetUpDriver(new FirefoxConfig());
             
             FirefoxOptions options = new FirefoxOptions();
+            options.AcceptInsecureCertificates = true;
+
             options.AddArgument("--marionette-port=0");
             options.AddArgument("--headless");
             options.AddArguments("start-maximized", "--no-sandbox");
