@@ -1,0 +1,9 @@
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.csproj.AssemblyReference.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.AssemblyInfoInputs.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.AssemblyInfo.cs
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.RazorAssemblyInfo.cache
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.RazorAssemblyInfo.cs
+C:\Users\Paweł\Downloads\MWOProject\MWOProject\VehicleDealershipApp\obj\Debug\net7.0\VehicleDealershipApp.Client.sourcelink.json
