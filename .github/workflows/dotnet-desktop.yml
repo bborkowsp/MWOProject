@@ -1,6 +1,3 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET
 
 on:
@@ -20,16 +17,37 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
+
+    # Restore dependencies
     - name: Restore dependencies
       run: dotnet restore
+
+    # Build
     - name: Build
       run: dotnet build --configuration Release --no-restore
+
+    # Set executable permissions
     - name: Set executable permissions
+      run: chmod 777 -R /home/runner/work/MWOProject/MWOProject
+
+    # Start API
+    - name: Start API
       run: |
-        chmod 777 -R /home/runner/work/MWOProject/MWOProject
+        cd MWOProject/VehicleDealershipApp/API/bin/Debug/net7.0
+        nohup dotnet API.dll &
 
-    - name: Run the program
-      run: nohup dotnet /home/runner/work/MWOProjekt/MWOProjekt/VehicleDealershipApp/bin/Release/net7.0/VehicleDealershipApp.Client.dll &
+    # Start Web App
+    - name: Start Web App
+      run: |
+        cd MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCView/bin/Debug/net7.0
+        nohup dotnet VehicleDealershipWebMVCView.dll &
 
-    - name: Test
+    # Wait for services to start (you may need to adjust the sleep duration)
+    - name: Wait for services
+      run: sleep 10
+
+    # Run Selenium tests
+    - name: Run Selenium tests
       run: dotnet test --verbosity normal
+
+    # Additional steps (e.g., stopping services, cleaning up, etc.) if needed
