@@ -19,7 +19,7 @@ namespace VehicleDealershipApp.Test
 
             options.AddArguments("start-maximized");
             options.AddArguments("--disabled-gpu");
-           // options.AddArgument("--headless");
+            options.AddArgument("--headless");
             
             ChromeDriver = new ChromeDriver(options);
         }
