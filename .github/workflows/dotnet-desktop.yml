@@ -24,7 +24,7 @@ jobs:
 
     # Build
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build --configuration Debug --no-restore
 
     # Set executable permissions
     - name: Set executable permissions
