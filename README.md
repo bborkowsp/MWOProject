@@ -155,7 +155,7 @@ namespace VehicleDealershipApp.Test
 
 ## Github Actions
 Konfiguracja github actions:
-'''yml
+```yml
 name: .NET
 
 on:
@@ -209,5 +209,5 @@ jobs:
       env:
         PAT: ${{ secrets.PAT }}
         GithubToken: ${{ secrets.githubtoken }}
-'''
+```
 Link do prezentacji: 
