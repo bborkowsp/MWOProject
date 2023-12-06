@@ -32,7 +32,7 @@ jobs:
 
     # Start API
     - name: Start API
-      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Debug/net7.0/API.dll &
+      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Debug/net7.0/API.dll --urls 'https://localhost:7230' &
 
     # Start Web App
     - name: Start Web App
