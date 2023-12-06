@@ -217,15 +217,15 @@ Aby zintegrować pipeline z Azure Devops musiałem najpierw założyć nową org
 Następnie wygenerowałe tzw. Personal Access Token.  
 ![image](https://github.com/bborkowsp/MWOProject/assets/95755487/52ef8ca0-e18d-4585-ac8c-4c88683652e5)  
 
-![image](https://github.com/bborkowsp/MWOProject/assets/95755487/de422761-414c-4835-9247-f986a1620bb1)
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/de422761-414c-4835-9247-f986a1620bb1)  
 Token musiałem skopiować i dodać nowy sekret do mojego repozytorium  
-![image](https://github.com/bborkowsp/MWOProject/assets/95755487/67d2d995-18d6-438a-ade0-06e1483acbc2)
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/67d2d995-18d6-438a-ade0-06e1483acbc2)  
 
-Musiałem również wygenerować token github'owy.
-![image](https://github.com/bborkowsp/MWOProject/assets/95755487/f74b10d6-082c-494b-969c-f2bc0cbb1a5d)
-![image](https://github.com/bborkowsp/MWOProject/assets/95755487/f163e87b-cbab-4cec-b80f-18df8285f8f8)
+Musiałem również wygenerować token github'owy.  
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/f74b10d6-082c-494b-969c-f2bc0cbb1a5d)  
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/f163e87b-cbab-4cec-b80f-18df8285f8f8)  
 W efekcie w moim repozotorium są dwa sekrety:  
-![image](https://github.com/bborkowsp/MWOProject/assets/95755487/2686c98f-ad67-4bd2-a8e5-f468e3e4db46)
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/2686c98f-ad67-4bd2-a8e5-f468e3e4db46)  
 
 
 
