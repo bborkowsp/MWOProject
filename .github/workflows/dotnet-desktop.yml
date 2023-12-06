@@ -24,19 +24,15 @@ jobs:
 
     # Build
     - name: Build
-      run: dotnet build --configuration Debug --no-restore
+      run: dotnet build --configuration Release --no-restore
 
     # Set executable permissions
     - name: Set executable permissions
       run: chmod 777 -R /home/runner/work/MWOProject/MWOProject
 
     # Start API
-    - name: Start API
-      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Debug/net7.0/API.dll --urls 'https://localhost:7230' &
-
-    # Start Web App
-    - name: Start Web App
-      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/VehicleDealershipWebMVCView/bin/Debug/net7.0/VehicleDealershipWebMVCView.dll &
+    - name: Start API and WEB App
+      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Release/net7.0/VehicleDealershipApp.dll &
 
     # Wait for services to start (you may need to adjust the sleep duration)
     - name: Wait for services
