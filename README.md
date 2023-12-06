@@ -133,3 +133,5 @@ namespace VehicleDealershipApp.Test
     }
 }
 ```
+Ze względu na problemu z konfiguracją GitHub actions wykonałem tylko testy.
+Link do prezentacji: 
