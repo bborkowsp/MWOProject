@@ -227,6 +227,7 @@ Musiałem również wygenerować token github'owy.
 W efekcie w moim repozotorium są dwa sekrety:  
 ![image](https://github.com/bborkowsp/MWOProject/assets/95755487/2686c98f-ad67-4bd2-a8e5-f468e3e4db46)  
 
-
+W ten sposób jeśli w github actions zostanie wykryty błąd to automatycznie będzie tworzony bug w projekcie na Azure Devops.  
+![image](https://github.com/bborkowsp/MWOProject/assets/95755487/a7ec8210-73d8-474f-9b38-47c47793c72d)
 
 Link do prezentacji: 
