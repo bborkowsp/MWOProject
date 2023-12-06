@@ -16,10 +16,9 @@ namespace VehicleDealershipApp.Test
         {
             FirefoxOptions options = new FirefoxOptions();
             options.AddArgument("--marionette-port=0");
-            if (IsRunningInGithubActions())
-            {
+
                 options.AddArgument("--headless");
-            }
+
             options.AcceptInsecureCertificates = true;
             Console.WriteLine("Setup Firefox Driver...");
             FirefoxDriver = new FirefoxDriver(options);            
