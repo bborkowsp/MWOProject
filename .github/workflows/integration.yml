@@ -47,7 +47,7 @@ jobs:
         AreaPath: "mwoProject"
         IterationPath: "mwoProject"
         GithubToken: "GithubToken"
-        WorkflowFileName: "dotnet-desktop.yml"
+        WorkflowFileName: "integration.yml"
       env:
         PAT: ${{ secrets.PAT }}
         GithubToken: ${{ secrets.githubtoken }}
