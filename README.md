@@ -115,7 +115,7 @@ namespace VehicleDealershipApp.Test
             Thread.Sleep(1000);
 
 
-            IWebElement expectedVehicleModel = FirefoxDriver.FindElement(By.XPath("//*[contains(text(),'" + "UpdatedModel" + "')]"));
+            IWebElement expectedVehicleModel = FirefoxDriver.FindElement(By.XPath("//*[contains(text(),'" + "Up1datedModel" + "')]"));
             Assert.IsTrue(expectedVehicleModel.Displayed);
             Thread.Sleep(2000);
             
@@ -152,4 +152,6 @@ namespace VehicleDealershipApp.Test
     }
 }
 ```
+
+# Github Actions
 Link do prezentacji: 
