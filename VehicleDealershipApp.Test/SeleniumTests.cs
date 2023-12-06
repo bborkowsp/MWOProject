@@ -8,7 +8,7 @@ namespace VehicleDealershipApp.Test
     public class SeleniumTests
     {
         private IWebDriver ChromeDriver;
-        private static string BASIC_URL = "https://localhost:7255/VehicleAPI";
+        private static string BASIC_URL = "https://localhost:7255/VehicleApi";
 
         [TestInitialize]
         public void Initialize()
