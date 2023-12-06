@@ -35,6 +35,6 @@ jobs:
 
     # Run Selenium tests
     - name: Run Selenium tests
-      run: dotnet test --verbosity normal --urls 'https://localhost:7255/VehicleApi'
+      run: dotnet test --verbosity normal
 
     # Additional steps (e.g., stopping services, cleaning up, etc.) if needed
