@@ -17,7 +17,7 @@ namespace VehicleDealershipApp.Test
             FirefoxOptions options = new FirefoxOptions();
             options.AddArgument("--marionette-port=0");
 
-                options.AddArgument("--headless");
+             //   options.AddArgument("--headless");
 
             options.AcceptInsecureCertificates = true;
             Console.WriteLine("Setup Firefox Driver...");
@@ -105,7 +105,7 @@ namespace VehicleDealershipApp.Test
             Thread.Sleep(1000);
 
 
-            IWebElement expectedVehicleModel = FirefoxDriver.FindElement(By.XPath("//*[contains(text(),'" + "Up1datedModel" + "')]"));
+            IWebElement expectedVehicleModel = FirefoxDriver.FindElement(By.XPath("//*[contains(text(),'" + "Updat1edModel" + "')]"));
             Assert.IsTrue(expectedVehicleModel.Displayed);
             Thread.Sleep(2000);
             
