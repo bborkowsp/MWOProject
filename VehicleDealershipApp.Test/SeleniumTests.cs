@@ -15,8 +15,6 @@ namespace VehicleDealershipApp.Test
         {
             ChromeOptions options = new ChromeOptions();
 
-            options.AddArguments("start-maximized");
-            options.AddArguments("--disabled-gpu");
             options.AddArgument("--marionette-port=0");
             options.AddArgument("--headless");
 
@@ -33,14 +31,20 @@ namespace VehicleDealershipApp.Test
         public void Test1_CreateVehicleWithModelAndFuelValues()
         {
             ChromeDriver.Navigate().GoToUrl(BASIC_URL + "/Create");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             ChromeDriver.FindElement(By.CssSelector("#Model")).SendKeys("myModelTestValue");
+            Thread.Sleep(2000);
+
             ChromeDriver.FindElement(By.CssSelector("#Fuel")).SendKeys("myFuelTestValue");
+            Thread.Sleep(2000);
+          
             ChromeDriver.FindElement(By.CssSelector("input[value='Create']")).Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             IWebElement expectedVehicle = ChromeDriver.FindElement(By.XPath("//*[contains(text(),'" + "myModelTestValue" + "')]"));
+            Thread.Sleep(2000);
+
             Assert.IsTrue(expectedVehicle.Displayed);
         }
 
