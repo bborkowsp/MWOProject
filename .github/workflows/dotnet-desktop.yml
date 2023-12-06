@@ -37,4 +37,17 @@ jobs:
     - name: Run Selenium tests
       run: dotnet test --verbosity normal
 
-    # Additional steps (e.g., stopping services, cleaning up, etc.) if needed
+    - name: Create Bug Workitem on workflow failure
+      uses: stefanstranger/azuredevops-bug-action@1.1
+      if: failure()
+      with:
+        OrganizationName: "mwoProject"
+        PAT: "PAT"
+        ProjectName: "mwoProject"
+        AreaPath: "mwoProject"
+        IterationPath: "mwoProject"
+        GithubToken: "GITHUBTOKEN"
+        WorkflowFileName: "dotnet-desktop.yml"
+      env:
+        PAT: ${{ secrets.PAT }}
+        GithubToken: ${{ secrets.GITHUBTOKEN }}
