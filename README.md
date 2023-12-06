@@ -7,6 +7,7 @@ Widok aplikacji:
 ![image](https://github.com/bborkowsp/MWOProject/assets/95755487/6dde2527-2770-4999-a2d8-3bbba1de8aae)  
 
 ## Testy Selenium
+Ważnym parametrem przy wykonywaniu testów jest parametr "headless", który pozwala na uruchomienie testów w środowisku Github Actions.
 ```csharp
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
