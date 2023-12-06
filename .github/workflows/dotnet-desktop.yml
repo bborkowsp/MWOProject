@@ -46,8 +46,8 @@ jobs:
         ProjectName: "mwoProject"
         AreaPath: "mwoProject"
         IterationPath: "mwoProject"
-        GithubToken: "GITHUBTOKEN"
+        GithubToken: "GithubToken"
         WorkflowFileName: "dotnet-desktop.yml"
       env:
         PAT: ${{ secrets.PAT }}
-        GithubToken: ${{ secrets.GITHUBTOKEN }}
+        GithubToken: ${{ secrets.githubtoken }}
