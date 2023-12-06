@@ -31,7 +31,7 @@ jobs:
 
     # Wait for services to start (you may need to adjust the sleep duration)
     - name: Wait for services
-      run: sleep 10
+      run: sleep 20
 
     # Run Selenium tests
     - name: Run Selenium tests
