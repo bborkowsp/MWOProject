@@ -231,4 +231,4 @@ W efekcie w moim repozotorium są dwa sekrety:
 W ten sposób jeśli w github actions zostanie wykryty błąd to automatycznie będzie tworzony bug w projekcie na Azure Devops.  
 ![image](https://github.com/bborkowsp/MWOProject/assets/95755487/a7ec8210-73d8-474f-9b38-47c47793c72d)
 
-Link do prezentacji: 
+Link do prezentacji: https://youtu.be/vKzj3uoTUlI
