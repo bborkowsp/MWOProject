@@ -32,7 +32,7 @@ jobs:
 
     # Start API
     - name: Start API and WEB App
-      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/API/bin/Release/net7.0/VehicleDealershipApp.Client.dll &
+      run: nohup dotnet /home/runner/work/MWOProject/MWOProject/VehicleDealershipApp/bin/Release/net7.0/VehicleDealershipApp.Client.dll &
 
     # Wait for services to start (you may need to adjust the sleep duration)
     - name: Wait for services
